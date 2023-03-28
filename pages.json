@@ -1,0 +1,78 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/home/home",
+			"enablePullDownRefresh": true
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "Us",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/programs1/programs1",
+			"style": {
+				"navigationBarTitleText": "项目",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+			"path": "pages/programs2/programs2",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/programs3/programs3",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/programs4/programs4",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Eastern Light Building",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"list": [{
+				"iconPath": "static/首页-1.png",
+				// "text": "首页",
+				"pagePath": "pages/home/home",
+				"selectedIconPath": "static/首页 (1).png"
+			},
+
+			// {
+			// 	"iconPath": "static/工程项目.png",
+			// 	"pagePath": "pages/programs1/programs1",
+			// 	// "text": "项目",
+			// 	"selectedIconPath": "/static/工程项目信息.png"
+			// },
+
+			{
+				"iconPath": "static/个人中心-我的.png",
+				"pagePath": "pages/index/index",
+				// "text": "用户",
+				"selectedIconPath": "/static/用户.png"
+
+			}
+		]
+	}
+}
